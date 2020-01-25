@@ -23,4 +23,3 @@ let g:javascript_plugin_flow = 1
 
 source ~/.vim/coc_config.vim
 source ~/.vim/showfilename.vim
-source ~/.vim/comment.vim
