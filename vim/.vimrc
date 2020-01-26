@@ -16,10 +16,12 @@ call plug#begin('~/.vim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-scripts/tComment'
 Plug 'pangloss/vim-javascript'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
-" Enable flow syntax from pangloss
+" Enable flow syntax from pangloss/vim-javascript
 let g:javascript_plugin_flow = 1
 
 source ~/.vim/coc_config.vim
 source ~/.vim/showfilename.vim
+source ~/.vim/ctrlp_config.vim
