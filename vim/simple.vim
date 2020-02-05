@@ -1,27 +1,27 @@
-hi clear Normal
-set bg&
-
-" Remove all existing highlighting and set the defaults.
-hi clear
-
-" Load the syntax highlighting defaults, if it's enabled.
-if exists("syntax_on")
-  syntax reset
-endif
-
-let g:colors_name = "simple"
-
-set background=dark
-
-let s:none = "none"
-" Palette
-let s:white = "255"
-let s:darkgrey = "236"
-let s:black = "235"
-let s:blue = "26"
-let s:lightblue = "45"
-let s:green = "36"
-let s:purple = "183"
+hi clear Normal                                                                                                                                                                          
+set bg&                                                                                                                                                                                  
+                                                                                                                                                                                         
+" Remove all existing highlighting and set the defaults.                                                                                                                                 
+hi clear                                                                                                                                                                                 
+                                                                                                                                                                                         
+" Load the syntax highlighting defaults, if it's enabled.                                                                                                                                
+if exists("syntax_on")                                                                                                                                                                   
+  syntax reset                                                                                                                                                                           
+endif                                                                                                                                                                                    
+                                                                                                                                                                                         
+let g:colors_name = "simple"                                                                                                                                                             
+                                                                                                                                                                                         
+set background=dark                                                                                                                                                                      
+                                                                                                                                                                                         
+let s:none = "none"                                                                                                                                                                      
+" Palette                                                                                                                                                                                
+let s:white = "255"                                                                                                                                                                      
+let s:darkgrey = "236"                                                                                                                                                                   
+let s:black = "235"                                                                                                                                                                      
+let s:blue = "26"                                                                                                                                                                        
+let s:lightblue = "45"                                                                                                                                                                   
+let s:green = "36"                                                                                                                                                                       
+let s:purple = "183"                                                                                                                                                                     
 let s:orange = "166"
 
 " Editor
@@ -93,3 +93,9 @@ exe "hi! JavaScriptNumber" "ctermfg=".s:purple
 exe "hi! JavaScriptNull" "ctermfg=".s:purple
 exe "hi! jsNull" "ctermfg=".s:purple
 exe "hi! JavaScriptDebug" "ctermfg=".s:purple
+
+" Completion menu
+exe "hi! Pmenu"           "ctermfg=".s:none "ctermbg=".s:darkgrey "cterm=".s:none
+exe "hi! PmenuSel"        "ctermfg=".s:white "ctermbg=".s:blue "cterm=".s:none
+exe "hi! PmenuSbar"       "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
+exe "hi! PmenuThumb"      "ctermfg=".s:none  "ctermbg=".s:none  "cterm=".s:none
