@@ -1,0 +1,32 @@
+{
+    "editor.minimap.enabled": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.cache/**": true,
+        "**/dist/**": true,
+    },
+    "workbench.colorTheme": "Onyx",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "window.customMenuBarAltFocus": false,
+
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "javascript.suggest.autoImports": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "javascript.validate.enable": false
+}
